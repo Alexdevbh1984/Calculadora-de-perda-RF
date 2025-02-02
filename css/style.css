@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   background: url('engineer-2558705_1280.jpg') no-repeat center center fixed; /* Imagem de fundo */
-  background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+  background-size: cover;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -70,6 +70,20 @@ button:hover {
   background: #008ba3; /* Escurece o botão ao passar o mouse */
 }
 
+.componentes {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.componentes label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.componentes input[type="checkbox"] {
+  margin-right: 10px;
+}
+
 #resultado {
   margin-top: 20px;
   text-align: left;
@@ -77,4 +91,9 @@ button:hover {
 
 #resultado p {
   margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
 }
